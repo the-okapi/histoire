@@ -1,0 +1,338 @@
+{
+    "questions": [
+        {
+            "text": "As-tu invité des peuples à ton royaume ?",
+            "one": {
+                "text": "Oui",
+                "story": "J'ai invité des personnes à mon royaume. ",
+                "to": 2,
+                "end": {
+                    "do": false,
+                    "text": ""
+                },
+                "add": [
+                    {
+                        "type": "morale",
+                        "amount": 50
+                    },
+                    {
+                        "type": "people",
+                        "amount": 199
+                    },
+                    {
+                        "type": "money",
+                        "amount": -50
+                    }
+                ]
+            },
+            "two": {
+                "text": "Non",
+                "story": "",
+                "to": 1,
+                "end": {
+                    "do": false,
+                    "text": ""
+                },
+                "add": [
+                    {
+                        "type": "morale",
+                        "amount": -50
+                    }
+                ]
+            }
+        },
+        {
+            "text": "As-tu utilisé les personnes pour chercher les matériaux ?",
+            "one": {
+                "text": "Oui",
+                "story": "Après ça, j'ai utilisé mes peuples pour chercher les matériaux. ",
+                "to": 4,
+                "end": {
+                    "do": false,
+                    "text": ""
+                },
+                "add": [
+                    {
+                        "type": "materials",
+                        "amount": 199
+                    },
+                    {
+                        "type": "morale",
+                        "amount": -50
+                    }
+                ]
+            },
+            "two": {
+                "text": "Non",
+                "story": "",
+                "to": 3,
+                "end": {
+                    "do": false,
+                    "text": ""
+                },
+                "add": [
+                    {
+                        "type": "morale",
+                        "amount": 50
+                    }
+                ]
+            }
+        },
+        {
+            "text": "As-tu cherché les matériaux toi-même ?",
+            "two": {
+                "text": "Oui",
+                "story": "J'ai cherché les matériaux moi-même ! ",
+                "to": 4,
+                "end": {
+                    "do": false,
+                    "text": ""
+                },
+                "add": [
+                    {
+                        "type": "materials",
+                        "amount": 199
+                    },
+                    {
+                        "type": "morale",
+                        "amount": 50
+                    }
+                ]
+            },
+            "one": {
+                "text": "Non",
+                "story": "",
+                "to": 5,
+                "end": {
+                    "do": false,
+                    "text": ""
+                },
+                "add": [
+                ]
+            }
+        },
+        {
+            "text": "As-tu crée une muraille avec les matériaux ?",
+            "two": {
+                "text": "Oui",
+                "story": "Puis, j'ai créé une muraille avec les matériaux que j'ai cherchés. ",
+                "to": 6,
+                "end": {
+                    "do": false,
+                    "text": ""
+                },
+                "add": [
+                    {
+                        "type": "materials",
+                        "amount": -50
+                    },
+                    {
+                        "type": "morale",
+                        "amount": 50
+                    }
+                ]
+            },
+            "one": {
+                "text": "Non",
+                "story": "",
+                "to": 7,
+                "end": {
+                    "do": false,
+                    "text": ""
+                },
+                "add": [
+                    
+                ]
+            }
+        },
+        {
+            "text": "As-tu crée une muraille avec tes matériaux ?",
+            "one": {
+                "text": "Oui",
+                "story": "",
+                "to": 10,
+                "end": {
+                    "do": false,
+                    "text": ""
+                },
+                "add": [
+                ]
+            },
+            "two": {
+                "text": "Non",
+                "story": "",
+                "to": 2,
+                "end": {
+                    "do": false,
+                    "text": ""
+                },
+                "add": [
+                ]
+            }
+        },
+        {
+            "text": "As-tu crée des travaux pour tes peuples ?",
+            "one": {
+                "text": "Oui",
+                "story": "J'ai créé des travaux pour mes peuples. ",
+                "to": 8,
+                "end": {
+                    "do": false,
+                    "text": ""
+                },
+                "add": [
+                    {
+                        "type": "money",
+                        "amount": 50
+                    },
+                    {
+                        "type": "morale",
+                        "amount": -50
+                    }
+                ]
+            },
+            "two": {
+                "text": "Non",
+                "story": "",
+                "to": 9,
+                "end": {
+                    "do": false,
+                    "text": ""
+                },
+                "add": [
+                    {
+                        "type": "morale",
+                        "amount": 50
+                    }
+                ]
+            }
+        },
+        {
+            "text": "As-tu crée des maisons pour tes peuples ?",
+            "one": {
+                "text": "Oui",
+                "story": "J'ai créé des maisons pour mes peuples. ",
+                "to": 6,
+                "end": {
+                    "do": false,
+                    "text": ""
+                },
+                "add": [
+                    {
+                        "type": "materials",
+                        "amount": -50
+                    },
+                    {
+                        "type": "morale",
+                        "amount": 50
+                    }
+                ]
+            },
+            "two": {
+                "text": "Non",
+                "story": "",
+                "to": 6,
+                "end": {
+                    "do": false,
+                    "text": ""
+                },
+                "add": [
+                    {
+                        "type": "morale",
+                        "amount": -50
+                    }
+                ]
+            }
+        },
+        {
+            "text": "As-tu tué tous tes peuples ?",
+            "one": {
+                "text": "Oui",
+                "story": "J'ai tué tous mes peuples ! ",
+                "to": 9,
+                "end": {
+                    "do": false,
+                    "text": ""
+                },
+                "add": [
+                    {
+                        "type": "people",
+                        "amount": -400
+                    }
+                ]
+            },
+            "two": {
+                "text": "Non",
+                "story": "",
+                "to": 9,
+                "end": {
+                    "do": true,
+                    "text": "Tu as créé un royaume qui est couronné de succès. "
+                },
+                "add": [
+                ]
+            }
+        },
+        {
+            "text": "As-tu créé des travaux pour toi ?",
+            "one": {
+                "text": "Oui",
+                "story": "J'ai créé des travaux pour moi ! ",
+                "to": 8,
+                "end": {
+                    "do": false,
+                    "text": ""
+                },
+                "add": [
+                    {
+                        "type": "money",
+                        "amount": 50
+                    },
+                    {
+                        "type": "morale",
+                        "amount": 50                    }
+                ]
+            },
+            "two": {
+                "text": "Non",
+                "story": "",
+                "to": 8,
+                "end": {
+                    "do": false,
+                    "text": ""
+                },
+                "add": [
+                ]
+            }
+        },
+        {
+            "text": "Tu étais sûr que tu voulais créer une muraille avec tes matériaux ?",
+            "one": {
+                "text": "Oui",
+            "story": "Je voulais créer une muraille avec mes matériaux... mais je n'avais pas de matériaux ! ",
+                "to": 7,
+                "end": {
+                    "do": false,
+                    "text": ""
+                },
+                "add": [
+                    {
+                        "type": "materials",
+                        "amount": -400
+                    }
+                ]
+            },
+            "two": {
+                "text": "Non",
+                "story": "",
+                "to": 2,
+                "end": {
+                    "do": false,
+                    "text": ""
+                },
+                "add": [
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+button {
+    border: none;
+    border-radius: 10px;
+    margin: 100px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #333333;
+    color: white;
+}
+
+button:hover {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+button:active {
+    background-color: #000000;
+    color: white;
+}
+
+:root {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.bar {
+    width: 19px;
+    border-radius: 10px;
+}
+
+.back {
+    background-color: #eeeeee;
+    height: 400px;
+    margin: 10px;
+}
+
+.people {
+    background-color: #7bff00;
+}
+
+.materials {
+    background-color: #00d4ff;
+}
+
+.money {
+    background-color: #fbff00;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "first second third fourth";
+}
+
+.inside {
+    display: inline-block;
+}
+
+img {
+    object-fit: cover;
+    border-radius: 10px;
+    width: 19px;
+}
+
+div img {
+    object-fit: cover;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left {
+    grid-area: first;
+}
+
+.middle {
+    grid-area: second;
+}
+
+.right {
+    grid-area: third;
+}
