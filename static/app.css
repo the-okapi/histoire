@@ -84,3 +84,39 @@ div img {
 .right {
     grid-area: third;
 }
+
+.inf {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.pre {
+    color: green;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.imp {
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.pc {
+    color: skyblue;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.pce {
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.pcc {
+    color: purple;
+    font-weight: bold;
+    text-decoration: underline;
+}

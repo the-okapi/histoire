@@ -4,7 +4,7 @@
             "text": "As-tu invité des peuples à ton royaume ?",
             "one": {
                 "text": "Oui",
-                "story": "J'ai invité des personnes à mon royaume. ",
+                "story": "J'<span class=\"pc\">ai invité</span> des personnes à mon royaume. ",
                 "to": 2,
                 "end": {
                     "do": false,
@@ -45,7 +45,7 @@
             "text": "As-tu utilisé les personnes pour chercher les matériaux ?",
             "one": {
                 "text": "Oui",
-                "story": "Après ça, j'ai utilisé mes peuples pour chercher les matériaux. ",
+                "story": "Après ça, j'<span class=\"pc\">ai utilisé</span> mes peuples pour <span class=\"inf\">chercher</span> les matériaux. ",
                 "to": 4,
                 "end": {
                     "do": false,
@@ -82,7 +82,7 @@
             "text": "As-tu cherché les matériaux toi-même ?",
             "two": {
                 "text": "Oui",
-                "story": "J'ai cherché les matériaux moi-même ! ",
+                "story": "J'<span class=\"pc\">ai cherché</span> les matériaux moi-même ! ",
                 "to": 4,
                 "end": {
                     "do": false,
@@ -115,7 +115,7 @@
             "text": "As-tu crée une muraille avec les matériaux ?",
             "two": {
                 "text": "Oui",
-                "story": "Puis, j'ai créé une muraille avec les matériaux que j'ai cherchés. ",
+                "story": "Puis, j'<span class=\"pc\">ai créé</span> une muraille avec les matériaux que j'<span class=\"pcc\">ai cherchés.</span> ",
                 "to": 6,
                 "end": {
                     "do": false,
@@ -211,7 +211,7 @@
             "text": "As-tu crée des maisons pour tes peuples ?",
             "one": {
                 "text": "Oui",
-                "story": "J'ai créé des maisons pour mes peuples. ",
+                "story": "J'<span class=\"pc\">ai créé</span> des maisons pour mes peuples. ",
                 "to": 6,
                 "end": {
                     "do": false,
@@ -248,7 +248,7 @@
             "text": "As-tu tué tous tes peuples ?",
             "one": {
                 "text": "Oui",
-                "story": "J'ai tué tous mes peuples ! ",
+                "story": "J'<span class=\"pc\">ai tué</span> tous mes peuples ! ",
                 "to": 9,
                 "end": {
                     "do": false,
@@ -277,7 +277,7 @@
             "text": "As-tu créé des travaux pour toi ?",
             "one": {
                 "text": "Oui",
-                "story": "J'ai créé des travaux pour moi ! ",
+                "story": "J'<span class=\"pc\">ai créé</span> des travaux pour moi ! ",
                 "to": 8,
                 "end": {
                     "do": false,
@@ -309,7 +309,7 @@
             "text": "Tu étais sûr que tu voulais créer une muraille avec tes matériaux ?",
             "one": {
                 "text": "Oui",
-            "story": "Je voulais créer une muraille avec mes matériaux... mais je n'avais pas de matériaux ! ",
+            "story": "Je <span class=\"imp\">voulais</span> <span class=\"inf\">créer</span> une muraille avec mes matériaux... mais je n'<span class=\"imp\">avais</span> pas de matériaux ! ",
                 "to": 7,
                 "end": {
                     "do": false,
